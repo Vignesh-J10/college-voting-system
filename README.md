@@ -5,7 +5,7 @@ The College is considered as the user and they can login after authenticating th
 and candidates. They can even delete the students/poll if they commit mistake.
 After their creation they can commit their changes and conduct election on the required date and time. For verifying the appropriate voters
 the college needs to upload a database of valid students with their mobile number. 
-The format should of the .csv file should be as follows:
+The database file format should be in .csv file and it should be as follows:
 Field #1:   Register Number
 Field #2:   Mobile Number
 After the election is posted the students can go on to vote and they have to give their valid register number and in turn to verify them 
