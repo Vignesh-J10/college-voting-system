@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Merriweather|Roboto+Mono|Roboto+Slab|Stylish|Varela+Round&display=swap');
+body{
+	margin: 0 !important;
+	padding: 0 !important;
+	font-family: 'Varela Round', sans-serif;
+	margin:0;
+	overflow-x:hidden !important;
+}
+a{
+    text-decoration:none !important;
+}
+.navbar{
+	margin: none !important;
+	padding: 0 !important;
+	background-color:#011936 !important;
+}
+.navbar-brand{
+	font-family: 'Varela Round', sans-serif;
+	padding-left: 20px;
+	color:darkgrey !important;
+}
+.nav-item{
+	display: block !important;
+	color: darkgrey !important;
+	font-family: 'Stylish', sans-serif;
+	padding: 16px 19px !important;
+}
+.nav-item:hover{
+	background-color: darkgrey;
+	color: #011936 !important;
+    animation:tada 1s linear 1 !important;
+}
+.btn-primary{
+    background-color:#011936 !important;
+    border:2px solid #011936 !important;
+}
+.btn-primary:hover{
+    background-color:#0d1556 !important;
+}
+video{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	margin: none;
+	padding: none;
+	z-index: -1;
+}
+.whyus{
+	margin: 20px;
+	padding: 10px;
+}
+.whyus>h2 ,h5{
+	color: #0b4f6c;
+}
+h1,h2,h3{
+    color: #0b4f6c;
+}
+hr{
+    border:1px solid grey;
+}
+.contact{
+	border-top: 1px solid black; 
+	background-color: black;
+}
+.condet{
+	color: #0b4f6c;
+}
+.flaticon-support ,.flaticon-wrench ,.flaticon-guarantee-certificate{
+	font-size: 50px;	
+	padding: 20px;
+}
+.flaticon-e-mail-envelope , .flaticon-phone-call {
+	font-size: 40px;
+}
+.footer{
+	text-align: center;
+	color:#0b4f6c;
+	background-color: black;
+	font-size: 18px;
+	padding: 15px;
+	font-family: 'Stylish', sans-serif;
+}
+.loginform{
+	margin-top: 20%;
+	font-size: 15px;
+	text-align: center;
+}
+.regform{
+	margin-top:11%;
+	font-size: 15px;
+	text-align: center;	
+}
+.complaint{
+	margin-top: 6%;
+	font-size: 15px;
+	text-align: center;
+}
+input[type=text],[type=password],[type=email],[type=date],[type=time]{
+	width: 360px;
+	height: 50px;
+	border-radius: 5px;
+	/*border: 2px solid #FFBF00;*/
+	border:none;
+	border-bottom:2px solid #454ade;
+	text-align: center;
+}
+label{
+    margin-top:20px;
+    color:#02394a;
+    font-weight:bold;
+}
+input[type=date],[type=time]{
+    width: 140px;
+	height: 37px;
+	margin-bottom:12px;
+	border-radius: 5px;
+	border:none;
+	border-bottom:2px solid #454ade;
+	text-align: center !important;
+}
+input[type=submit]{
+    width:150px;
+    height:50px;
+    border-radius:5px;
+	text-align: center;
+}
+input[type=radio]{
+    margin-bottom:15px;
+    margin-right:3px;
+}
+select{
+    border-radius:6px;
+    border:1px solid #454ade;
+    width:80px;
+    text-align: center;
+}
+textarea{
+	border-radius: 5px;
+	border: 2px solid #454ade;
+	text-align: center;
+}
+small{
+    color:#454ade;
+}
+.card{
+    color:#d00000;
+}
+.pollcard{
+    margin-bottom:6px;
+}
+.pollcard:hover{
+    background-color:lightgrey;
+}
+.bg-primary{
+	background-color: #011936 !important;
+}
+.text-dark{
+	color:darkgrey !important;
+}
+/*media query*/
+@media only screen and (max-width: 768px){
+    body{
+        margin:0 !important;
+        overflow-x: hidden !important;
+    }
+    .regform{
+        margin-top:18%;
+    }
+    .loginform{
+        margin-top:50%;
+    }
+    input[type=text],[type=password],[type=email]{
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	font-size:12px;
+}
+
+input[type=date],[type=time]{
+    width: 80px;
+	height: 25px;
+	margin-bottom:3px;
+	text-align: center;
+}
+.pcard{
+    width: 12rem !important;
+    height:12rem !important;
+}
+.pollcard{
+    width:9rem !important;
+}
+textarea{
+	height: 100px;
+	width: 200px;
+	border-radius: 5px;
+	border: 2px solid #454ade;
+	text-align: center;
+}
+}
